@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Email</title>
+</head>
+<body>
+<form>
+    <!-- To DO: Add in an input for a first name -->
+    <label for="email-input">Please youse a Udemy.com email:</label>
+    <input 
+    id="email-input" 
+    type="email" 
+    placeholder="Eva@udemy.com" 
+    pattern="+@udemy\.com">
+
+    <input type="submit" value="sign in">
+</form> 
+
+<hr/>
+<form>
+<lable for="volume-input">Volume</lable>
+<input id="volume-input"
+    type="range"
+    step="10"
+    min="0"
+    max="100"
+    value="50"
+    >
+</form>
+<hr/>
+
+<form>
+<h1>How was your time at Happyland?</h1>
+<input id="bad input" type="radio" name="experience" value="bad">
+<lable for="bad-input">Bad</lable>
+
+<input id="okay-input" type="radio" name="experience" value="okay">
+<label for="okay-input">Okay</label>
+
+<input id="good-input" type="radio" name="experience" value="good">
+<label for="good-input">Good</label>
+
+<input type="submit">
+
+</form>
+ 
+</body>
+</html>
